@@ -1,0 +1,339 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #fff;
+    margin: 0 auto;
+    width: auto;
+    height: auto;
+}
+
+a {
+    color: currentColor;
+}
+
+#sidenav a {
+    position: fixed;
+    right: -110px;
+    transition: 0.5s;
+    padding: 15px;
+    width: 160px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    z-index: 1;
+}
+
+#sidenav a:hover {
+    right: 0;
+}
+
+#home_nav {
+    top: 190px;
+    background-color: orange;
+}
+
+#ideal_jobs_nav {
+    top: 250px;
+    background-color: rgb(134, 34, 134);
+}
+
+#our_team_nav {
+    top: 310px;
+    background-color: rgb(48, 182, 182);
+}
+
+#industry_data_nav {
+    top: 370px;
+    background-color: rgb(35, 145, 35);
+}
+
+#it_work_nav {
+    top: 430px;
+    background-color: rgb(196, 185, 31);
+}
+
+#it_technologies_nav {
+    top: 490px;
+    background: rgb(131, 23, 23);
+}
+
+#our_project_nav {
+    top: 550px;
+    background-color: blue;
+}
+
+.home {
+    background-color: #fff;
+    height: 1000px;
+}
+
+.home p {
+    text-align: center;
+}
+
+.grid_wrapper {
+    background-color: rgb(52, 75, 117);
+    width: min-content;
+    height: max-content;
+    margin: auto;
+    padding: 10px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-auto-rows: auto;
+    grid-gap: 1rem;
+    width: 1000px;
+    background-color: #fff;
+    margin: auto;
+    padding: 30px;
+}
+
+.card {
+    border: 2px solid #e7e7e7;
+    border-radius: 4px;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    color: #202020;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 1);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    background: #fff;
+    filter: grayscale(1);
+    transition: filter 200ms ease;
+    transition: transform .5s;
+    z-index: 0;
+    height: 750px;
+}
+
+.card:hover {
+	filter: grayscale(0);
+	transform: scale(1.07);
+	z-index: 1;
+}
+
+.card img {
+	width: 300px;
+	height: 300px;
+}
+
+.card p {
+    font-size: 14px;
+    height: 180px;
+}
+
+.name {
+    color: #000;
+    font-size: 30px;
+}
+
+.page_slide {
+    height: 2080px;
+    padding: 10px;
+    background-color: rgb(100, 100, 100);
+}
+
+.ideal_jobs {
+    width: 100%;
+    height: max-content;
+    padding: 20px;
+}
+
+.our_team {
+    width: 100%;
+    height: max-content;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #fff;
+    color: #000;
+}
+
+.industry_data {
+    width: 100%;
+    background-color: #9b9b9b;
+}
+
+.it_work {
+    width: 100%;
+    background-color: #fff;
+}
+
+.it_technologies {
+    width: 100%;
+    height: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    background-color: #fff;
+    color: #000;
+}
+
+#heading_para {
+    text-align: center;
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+
+.our_team p {
+    text-align: center;
+}
+
+.collapsible_btn {
+    background-color: rgb(201, 201, 201);
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: left;
+    outline: none;
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    border: 2px;
+    border-top-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-color: #000;
+}
+
+.button_group {
+    width: auto;
+    margin: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.active, .collapsible_btn:hover {
+    background-color: rgb(139, 216, 233);
+    color: #000;
+}
+
+#cloud_coll {
+    border: 2px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+}
+
+button svg {
+    height: 18px;
+    float: left;
+}
+
+.active svg, button:hover svg {
+    outline: 2px solid;
+}
+
+[aria-expanded="true"] .vertical {
+    display: none;
+}
+
+[aria-expanded] rect {
+    fill: currentColor;
+}
+
+.contents {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    max-height: max-content;
+    border: 2px;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-top-style: solid;
+    border-color: #000;
+}
+
+.contents h2 {
+    text-align: center;
+    font-size: 26px;
+}
+
+.contents p {
+    font-size: 17px;
+}
+
+.project_idea {
+    width: 100%;
+    background-color: #fff;
+}
+
+.project_idea, img {
+    text-align: center;
+}
+
+.pi_row {
+    background-color: #505050;
+    display: block;
+}
+
+.pi_row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.pi_column {
+    float: left;
+    width: 33%;
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #fff;
+    height: 600px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+
+.pi_para {
+    font-size: 18px;
+}
+
+.pi_title {
+    display: block;
+    font-size: 28px;
+    font-weight: bold;
+    border-bottom: 2px solid;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.slide_heading {
+    width: 100%;
+    font-size: 50px;
+    color: #000;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.card button {
+    border: 2px;
+    border-style: solid;
+    border-color: rgb(63, 63, 63);
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    
+}
+
+.card button:hover {
+    background-color: rgb(52, 75, 117);
+    color: #fff;
+    border-color: rgb(0, 0, 0);
+}
