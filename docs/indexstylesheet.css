@@ -3,10 +3,10 @@ html {
 }
 
 body {
-    background: #fff;
-    margin: 0 auto;
+    background-image: image-set(fixed);
     width: auto;
     height: auto;
+    position: relative;
 }
 
 a {
@@ -22,7 +22,7 @@ a {
     text-decoration: none;
     font-size: 20px;
     color: #fff;
-    z-index: 1;
+    z-index: 3;
 }
 
 #sidenav a:hover {
@@ -64,17 +64,26 @@ a {
     background-color: blue;
 }
 
-.home {
-    background-color: #fff;
-    height: 1000px;
+#home_heading {
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+    font-size: 34px;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    top: 4.5%;
+    margin: 0;
+    outline: 2px solid;
+    outline-color: #fff;
 }
 
-.home p {
-    text-align: center;
+.home {
+    height: 100%;
+    width: 100%;
 }
 
 .grid_wrapper {
-    background-color: rgb(52, 75, 117);
+    background-color: rgb(56, 17, 71);
     width: min-content;
     height: max-content;
     margin: auto;
@@ -88,7 +97,6 @@ a {
     grid-gap: 1rem;
     width: 1000px;
     background-color: #fff;
-    margin: auto;
     padding: 30px;
 }
 
@@ -134,15 +142,38 @@ a {
 }
 
 .page_slide {
-    height: 2080px;
+    height: max-content;
     padding: 10px;
-    background-color: rgb(100, 100, 100);
+    background-color: rgb(255, 255, 255);
 }
 
 .ideal_jobs {
     width: 100%;
     height: max-content;
     padding: 20px;
+}
+
+.ij_row {
+    background-color: #ffffff;
+    display: block;
+}
+
+.ij_row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.ij_column {
+    float: left;
+    width: 33%;
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #fff;
+    height: 600px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
 }
 
 .our_team {
@@ -154,6 +185,11 @@ a {
     padding-bottom: 30px;
     background-color: #fff;
     color: #000;
+   
+}
+
+#ot_heading_para {
+    font-size: 18px;
 }
 
 .industry_data {
@@ -168,12 +204,12 @@ a {
 
 .it_technologies {
     width: 100%;
-    height: auto;
+    height: max-content;
     padding-right: 20px;
     padding-left: 20px;
     padding-top: 20px;
     padding-bottom: 30px;
-    background-color: #fff;
+    background-color: rgb(255, 255, 255);
     color: #000;
 }
 
@@ -270,6 +306,11 @@ button svg {
     text-align: center;
 }
 
+.project_idea img {
+    max-width: 300px;
+    max-height: 500px;
+}
+
 .pi_row {
     background-color: #505050;
     display: block;
@@ -299,9 +340,10 @@ button svg {
 
 .pi_title {
     display: block;
-    font-size: 28px;
+    font-size: 30px;
     font-weight: bold;
-    border-bottom: 2px solid;
+    border-bottom: 4px solid;
+    border-color: rgb(56, 17, 71);
 }
 
 * {
