@@ -33,45 +33,38 @@ a {
     right: 0;
     background-color: rgb(56, 17, 71);
     color: rgb(255, 255, 255);
-    border: 2px solid;
+    border: 2px;
     border-color: rgb(0, 0, 0);
     width: 170px;
-
+    border-style: solid;
 }
 
 #home_nav {
     top: 190px;
-    background-color: orange;
 }
 
 #ideal_jobs_nav {
     top: 250px;
-    background-color: rgb(134, 34, 134);
 }
 
 #our_team_nav {
     top: 310px;
-    background-color: rgb(48, 182, 182);
 }
 
 #industry_data_nav {
     top: 370px;
-    background-color: rgb(35, 145, 35);
 }
 
 #it_work_nav {
     top: 430px;
-    background-color: rgb(196, 185, 31);
 }
 
 #it_technologies_nav {
     top: 490px;
-    background: rgb(131, 23, 23);
 }
 
 #our_project_nav {
     top: 550px;
-    background-color: blue;
 }
 
 #home_heading {
@@ -90,6 +83,291 @@ a {
     width: 100%;
 }
 
+#popup {
+    position: fixed;
+    display: none;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 4;
+    cursor: pointer;
+}
+
+.popup_container {
+    display: none; 
+    position: fixed; 
+    z-index: 3; 
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+.popup_header {
+    padding: 2px 16px;
+    background-color: rgb(201, 201, 201);
+    color: rgb(0, 0, 0);
+}
+
+.popup_body {
+    padding: 2px 16px;
+    height: fit-content;
+}
+
+.popup_content {
+    background-color: rgb(255, 255, 255);
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid rgb(0, 0, 0);
+    width: 80%;
+    animation-name: topdown;
+    animation-duration: 0.4s
+}
+
+@keyframes topdown {
+    from {top:-300px; opacity: 0}
+    to {top: 0; opacity: 1;}
+}
+
+#btn_container {
+    text-align: center;
+    padding: 15px;
+}
+
+#the_test_btn {
+    width: 180px;
+    height: 40px;
+    transition: 0.5s;
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border: 3px;
+    border-style: solid;
+    border-color: rgb(51, 51, 51);
+    cursor: pointer;
+}
+
+#the_test_btn:hover {
+    background-color: rgb(56, 17, 71);
+    color: rgb(255, 255, 255);
+    border: 3px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    width: 180px;
+    height: 40px;
+}
+
+.close {
+    padding-top: 15px;
+    color: rgb(255, 255, 255);
+    float: right;
+    font-size: 30px;
+    font-weight: bold;
+}
+  
+.close:hover, .close:focus {
+    color: rgb(56, 17, 71);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.collapsible_btn_adam {
+    background-color: rgb(201, 201, 201);
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: left;
+    outline: none;
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    border: 2px;
+    border-style: solid;
+    border-color: #000;
+}
+
+.collapsible_btn_angelo {
+    background-color: rgb(201, 201, 201);
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: left;
+    outline: none;
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    border: 2px;
+    border-style: solid;
+    border-color: #000;
+}
+
+.collapsible_btn_grace {
+    background-color: rgb(201, 201, 201);
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: left;
+    outline: none;
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    border: 2px;
+    border-style: solid;
+    border-color: #000;
+}
+
+.collapsible_btn_paul {
+    background-color: rgb(201, 201, 201);
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: left;
+    outline: none;
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    border: 2px;
+    border-style: solid;
+    border-color: #000;
+}
+
+.collapsible_btn_taylor {
+    background-color: rgb(201, 201, 201);
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: left;
+    outline: none;
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    border: 2px;
+    border-style: solid;
+    border-color: #000;
+}
+
+.collapsible_btn_will {
+    background-color: rgb(201, 201, 201);
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: left;
+    outline: none;
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    border: 2px;
+    border-style: solid;
+    border-color: #000;
+}
+
+.active, .collapsible_btn_adam:hover {
+    background-color: rgb(139, 216, 233);
+    color: #000;
+}
+
+.active, .collapsible_btn_angelo:hover {
+    background-color: rgb(139, 216, 233);
+    color: #000;
+}
+
+.active, .collapsible_btn_grace:hover {
+    background-color: rgb(139, 216, 233);
+    color: #000;
+}
+
+.active, .collapsible_btn_paul:hover {
+    background-color: rgb(139, 216, 233);
+    color: #000;
+}
+
+.active, .collapsible_btn_taylor:hover {
+    background-color: rgb(139, 216, 233);
+    color: #000;
+}
+
+.active, .collapsible_btn_will:hover {
+    background-color: rgb(139, 216, 233);
+    color: #000;
+}
+
+.ot_column {
+    display: none;
+    background-color: rgb(255, 255, 255);
+    max-height: max-content;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px;
+    border-left: solid;
+    border-bottom: solid;
+    border-right: solid;
+    border-color: #000;
+    float: left;
+}
+
+.test_images {
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    float: left;
+}
+
+.test_images img {
+    margin: auto;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.ot_column h2 {
+    text-align: center;
+    display: block;
+    font-size: 30px;
+    font-weight: bold;
+    border-bottom: 4px solid;
+    border-color: rgb(139, 216, 233);
+}
+
+.ot_row {
+    display: block;
+    padding: 20px;
+}
+
+.ot_row {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.ot_row img {
+    float: left;
+    padding-bottom: 10px;
+}
+
+.ot_row h3 {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 50%;
+    padding-top: 80px;
+    margin: auto;
+}
+
+.ot_row p {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 50%;
+    padding-top: 10px;
+    margin: auto;
+}
 .grid_wrapper {
     background-color: rgb(56, 17, 71);
     width: min-content;
@@ -569,6 +847,7 @@ button svg {
     color: #000;
     text-align: center;
     text-decoration: underline;
+    text-decoration-color: rgb(56, 17, 71);
 }
 
 .card button {
@@ -588,7 +867,7 @@ button svg {
 }
 
 .card button:hover {
-    background-color: rgb(52, 75, 117);
+    background-color: rgb(56, 17, 71);
     color: #fff;
     border-color: rgb(0, 0, 0);
 }
