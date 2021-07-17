@@ -1,6 +1,42 @@
 //This function is what actives the collapsible button
 
-var btn = document.getElementsByClassName("collapsible_btn");
+var btn = document.getElementsByClassName("collapsible_btn_nat");
+
+btn[0].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var contents = this.nextElementSibling;
+    if (contents.style.display === "block") {
+        contents.style.display = "none";
+    } else {
+        contents.style.display = "block";
+    }
+});
+
+var btn = document.getElementsByClassName("collapsible_btn_auto");
+
+btn[0].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var contents = this.nextElementSibling;
+    if (contents.style.display === "block") {
+        contents.style.display = "none";
+    } else {
+        contents.style.display = "block";
+    }
+});
+
+var btn = document.getElementsByClassName("collapsible_btn_machine");
+
+btn[0].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var contents = this.nextElementSibling;
+    if (contents.style.display === "block") {
+        contents.style.display = "none";
+    } else {
+        contents.style.display = "block";
+    }
+});
+
+var btn = document.getElementsByClassName("collapsible_btn_cloud");
 
 btn[0].addEventListener("click", function() {
     this.classList.toggle("active");
