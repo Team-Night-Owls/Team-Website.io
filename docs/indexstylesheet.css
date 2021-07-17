@@ -431,6 +431,7 @@ a {
 .page_slide {
     height: max-content;
     padding: 10px;
+    padding-bottom: 100px;
     background-color: rgb(255, 255, 255);
 }
 
@@ -484,9 +485,73 @@ a {
     background-color: #9b9b9b;
 }
 
+.id_row {
+    background-color: #fff;
+    display: block;
+    padding: 20px;
+}
+
+.id_row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.id_column {
+    float: left;
+    width: 33%;
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #fff;
+    height: 600px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+
 .it_work {
     width: 100%;
     background-color: #fff;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.it_work p {
+    font-size: 20px;
+}
+
+.it_work a {
+    padding-left: 95px;
+}
+
+.transcript_talk {
+    padding: 40px;
+    padding-left: 180px;
+    padding-right: 180px;
+}
+
+.transcript_btn {
+    width: 180px;
+    height: 40px;
+    transition: 0.5s;
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border: 3px;
+    border-style: solid;
+    border-color: rgb(51, 51, 51);
+    cursor: pointer;
+}
+
+.transcript_btn:hover {
+    background-color: rgb(56, 17, 71);
+    color: rgb(255, 255, 255);
+    border: 3px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    width: 180px;
+    height: 40px;
 }
 
 .it_technologies {
@@ -684,7 +749,7 @@ button svg {
     padding-left: 20px;
     padding-right: 20px;
     background-color: #fff;
-    height: 400px;
+    height: 500px;
     margin-block-start: 1em;
     margin-block-end: 1em;
 }
@@ -701,6 +766,22 @@ button svg {
     margin-block-end: 1em;
 }
 
+.pi_column2 h2 {
+    text-decoration-color: rgb(56, 17, 71);
+    text-decoration: underline;
+}
+
+.pi_column2 p {
+    font-size: 20px;
+}
+
+.pi_para_two {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+
+
 .pi_column3 {
     float: left;
     width: 50%;
@@ -710,6 +791,9 @@ button svg {
     height: 260px;
     margin-block-start: 1em;
     margin-block-end: 1em;
+    border: 2px;
+    border-style: solid;
+    border-color: rgb(56, 17, 71);
 }
 
 .pi_column4 {
@@ -721,6 +805,9 @@ button svg {
     height: 260px;
     margin-block-start: 1em;
     margin-block-end: 1em;
+    border: 2px;
+    border-style: solid;
+    border-color: rgb(56, 17, 71);
 }
 
 .pi_column5 {
@@ -729,9 +816,10 @@ button svg {
     display: block;
     padding-left: 25px;
     padding-right: 25px;
-    height: 900px;
+    height: 1000px;
     margin-block-start: 1em;
     margin-block-end: 1em;
+    padding-top: 150px;
 }
 
 .pi_column6 {
@@ -743,6 +831,9 @@ button svg {
     height: 200px;
     margin-block-start: 1em;
     margin-block-end: 1em;
+    border: 2px;
+    border-style: solid;
+    border-color: rgb(56, 17, 71);
 }
 
 .pi_column7 {
@@ -754,6 +845,7 @@ button svg {
     height: 260px;
     margin-block-start: 1em;
     margin-block-end: 1em;
+    
 }
 
 .pi_column8 {
@@ -765,6 +857,9 @@ button svg {
     height: 400px;
     margin-block-start: 1em;
     margin-block-end: 1em;
+    border: 2px;
+    border-style: solid;
+    border-color: rgb(56, 17, 71);
 }
 
 .pi_column8_0 {
@@ -795,15 +890,25 @@ button svg {
     margin-block-end: 1em;
 }
 
+.pi_column9 h2 {
+    text-decoration-color: rgb(56, 17, 71);
+    text-decoration:underline;
+}
+
 .pi_column9 {
     float: left;
     width: 33%;
     padding-left: 20px;
     padding-right: 20px;
     display: block;
-    height: 300px;
+    height: 400px;
     margin-block-start: 1em;
     margin-block-end: 1em;
+}
+
+.pi_column10 h2 {
+    text-decoration:underline;
+    text-decoration-color: rgb(56, 17, 71);
 }
 
 .pi_column10 {
@@ -812,7 +917,7 @@ button svg {
     padding-left: 20px;
     padding-right: 20px;
     display: block;
-    height: 300px;
+    height: 100px;
     margin-block-start: 1em;
     margin-block-end: 1em;
 }
