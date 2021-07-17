@@ -420,6 +420,7 @@ a {
 .card p {
     font-size: 14px;
     height: 180px;
+    padding-bottom: 20px;
 }
 
 .name {
