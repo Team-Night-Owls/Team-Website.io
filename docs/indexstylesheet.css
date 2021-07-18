@@ -1034,3 +1034,45 @@ button svg {
     color: #fff;
     border-color: rgb(0, 0, 0);
 }
+
+.group_reflection{
+    width: 100%;
+}
+
+.gf_row {
+    background-color: #fff;
+    display: block;
+    padding: 20px;
+}
+
+.gf_row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.ij_column {
+    float: left;
+    width: 33%;
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #fff;
+    height: 600px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    text-align: center;
+}
+
+.ij_column2 {
+    float: left;
+    width: 33%;
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #fff;
+    height: 400px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    text-align: center;
+}
