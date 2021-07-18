@@ -730,6 +730,14 @@ button svg {
     max-height: 500px;
 }
 
+#ice-screamman{
+    padding-right: 40px;
+}
+
+#evilsun {
+    padding-left: 40px;
+}
+
 .pi_row {
     background-color: #fff;
     display: block;
