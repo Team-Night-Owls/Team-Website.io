@@ -469,13 +469,16 @@ a {
     padding-left: 20px;
     padding-right: 20px;
     background-color: #fff;
-    height: 750px;
+    height: 800px;
     margin-block-start: 1em;
     margin-block-end: 1em;
     text-align: center;
 }
 
-
+.ij_table_img {
+    text-align: center;
+    height: max-content;
+}
 
 .ij_column h1 {
     text-decoration: underline;
@@ -1051,7 +1054,7 @@ button svg {
     clear: both;
 }
 
-.ij_column {
+.gf_column {
     float: left;
     width: 33%;
     display: block;
@@ -1064,7 +1067,7 @@ button svg {
     text-align: center;
 }
 
-.ij_column2 {
+.gf_column2 {
     float: left;
     width: 33%;
     display: block;
@@ -1075,4 +1078,14 @@ button svg {
     margin-block-start: 1em;
     margin-block-end: 1em;
     text-align: center;
+}
+
+.gf_column2 h1 {
+    text-decoration: underline;
+    text-decoration-color: rgb(56, 17, 71);
+}
+
+.gf_column h1 {
+    text-decoration: underline;
+    text-decoration-color: rgb(56, 17, 71);
 }
