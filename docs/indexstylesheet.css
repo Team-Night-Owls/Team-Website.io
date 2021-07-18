@@ -72,6 +72,10 @@ a {
     top: 550px;
 }
 
+#group_reflection_nav {
+    top: 610px;
+}
+
 #home_heading {
     z-index: 1;
     position: absolute;
@@ -496,7 +500,6 @@ a {
 
 .industry_data {
     width: 100%;
-    background-color: #9b9b9b;
 }
 
 .id_row {
@@ -513,14 +516,41 @@ a {
 
 .id_column {
     float: left;
-    width: 33%;
+    width: 100%;
     display: block;
     padding-left: 20px;
     padding-right: 20px;
     background-color: #fff;
-    height: 600px;
+    height: 800px;
     margin-block-start: 1em;
     margin-block-end: 1em;
+    text-align: center;
+}
+
+.id_column2 {
+    float: left;
+    width: 100%;
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #fff;
+    height: 450px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    text-align: center;
+}
+
+.id_column3 {
+    float: left;
+    width: 100%;
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #fff;
+    height: 500px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    text-align: center;
 }
 
 .it_work {
