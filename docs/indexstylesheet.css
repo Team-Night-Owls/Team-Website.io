@@ -808,7 +808,31 @@ button svg {
     padding-left: 20px;
     padding-right: 20px;
     background-color: #fff;
-    height: 500px;
+    height: max-content;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+
+.pi_columnGame {
+    float: left;
+    width: 100%;
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #fff;
+    height: max-content;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+
+.pi_columnVideo {
+    float: left;
+    width: 100%;
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #fff;
+    height: max-content;
     margin-block-start: 1em;
     margin-block-end: 1em;
 }
@@ -820,7 +844,7 @@ button svg {
     padding-left: 20px;
     padding-right: 20px;
     background-color: #fff;
-    height: 3000px;
+    height: 3200px;
     margin-block-start: 1em;
     margin-block-end: 1em;
 }
