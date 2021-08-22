@@ -837,6 +837,18 @@ button svg {
     margin-block-end: 1em;
 }
 
+.pi_columnDraft {
+    float: left;
+    width: 100%;
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #fff;
+    height: max-content;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+
 .pi_column2 {
     float: left;
     width: 100%;
